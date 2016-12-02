@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 class Friend extends React.Component {
   render() {
@@ -19,6 +19,7 @@ class Friend extends React.Component {
             <div className="num-friends">
                 { this.props.friendCount }
             </div>
+      </li>
     );
   }
 }
